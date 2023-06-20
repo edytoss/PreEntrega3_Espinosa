@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda Charrua</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="containerHeader">
+        <nav class="navbar nav">
+          <h1 id="title">Tienda charrua 🧉</h1>
+          <div class="container-fluid">
+            <form class="d-flex justify-content-center">
+              <input
+                class="form-control me-2"
+                id="busqueda"
+                type="text"
+                placeholder="Buscador"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success"
+                id="btnFiltrar"
+                type="button"
+              >
+                Buscar
+              </button>
+            </form>
+            <i class="bi bi-cart3 carrito"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div id="contenedor" class="d-flex justify-content-evenly"></div>
+      <div id="tabla-carrito"></div>
+      <div id="acciones-carrito"></div>
+    </main>
+
+    <footer class="pie">
+      <div class="foot">
+        <h1>Entrega numero 3 JavaScript</h1>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
